@@ -1,0 +1,13 @@
+# Day 20 – Input Validation & Sanitization
+
+## What this is about
+Revisiting input validation and sanitization with a focus on practical security impact.
+
+## Why this matters
+Improper input handling is one of the root causes of:
+- Cross-Site Scripting (XSS)
+- SQL Injection
+- Command Injection
+
+## Key takeaway
+Never trust user input — validate what you expect, sanitize what you display.
