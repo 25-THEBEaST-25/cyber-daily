@@ -70,3 +70,7 @@ leading to SQL Injection and database compromise.
 This could have been prevented with proper input validation
 and use of parameterized queries.
 
+## References
+- OWASP Top 10 – Injection & XSS
+- OWASP Input Validation Cheat Sheet
+- OWASP XSS Prevention Cheat Sheet
