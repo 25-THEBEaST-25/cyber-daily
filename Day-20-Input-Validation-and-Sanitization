@@ -49,3 +49,8 @@ but because basic input checks were skipped.
 - Encode output based on context (HTML, JS, SQL)
 - Treat all external input as untrusted
 
+## Types of validation
+- **Format validation**: Ensuring input follows a pattern (email, phone)
+- **Type validation**: Ensuring correct data type (int, string, boolean)
+- **Range validation**: Ensuring values fall within allowed limits
+- **Length validation**: Restricting minimum and maximum input size
