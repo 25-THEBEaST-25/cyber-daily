@@ -42,3 +42,10 @@ but because basic input checks were skipped.
 - Not validating input length and type
 - Forgetting to sanitize output before rendering
 
+## Best practices
+- Always validate input on the server side
+- Use allowlists instead of denylists
+- Apply strict input length limits
+- Encode output based on context (HTML, JS, SQL)
+- Treat all external input as untrusted
+
