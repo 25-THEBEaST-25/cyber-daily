@@ -61,3 +61,12 @@ but because basic input checks were skipped.
 - Command Injection
 - Path Traversal
 - LDAP Injection
+
+## Example scenario
+A login form accepts user input without validation.
+An attacker enters malicious SQL instead of a username,
+leading to SQL Injection and database compromise.
+
+This could have been prevented with proper input validation
+and use of parameterized queries.
+
