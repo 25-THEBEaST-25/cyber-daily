@@ -54,3 +54,10 @@ but because basic input checks were skipped.
 - **Type validation**: Ensuring correct data type (int, string, boolean)
 - **Range validation**: Ensuring values fall within allowed limits
 - **Length validation**: Restricting minimum and maximum input size
+
+## Vulnerabilities caused by poor input handling
+- Cross-Site Scripting (XSS)
+- SQL Injection
+- Command Injection
+- Path Traversal
+- LDAP Injection
