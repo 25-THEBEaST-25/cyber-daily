@@ -24,6 +24,14 @@ Improper input validation has caused major security breaches in the real world:
 - Not validating input length and type
 - Forgetting to sanitize output before rendering
 
+## Validation vs Sanitization
+- **Validation**: Checking if input matches expected format and rules
+  - Example: Only numbers for age, valid email format, allowed characters
+- **Sanitization**: Cleaning or escaping input before using or displaying it
+  - Example: Escaping HTML to prevent XSS
+
+Validation decides *whether* input is acceptable.  
+Sanitization decides *how* input is safely used.
 
 Most of these attacks happen not because of complex bugs,
 but because basic input checks were skipped.
