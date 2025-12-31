@@ -18,6 +18,13 @@ Improper input validation has caused major security breaches in the real world:
 - SQL Injection exposing entire databases
 - Command Injection resulting in server takeover
 
+## Common developer mistakes
+- Trusting client-side validation alone
+- Using blacklists instead of whitelists
+- Not validating input length and type
+- Forgetting to sanitize output before rendering
+
+
 Most of these attacks happen not because of complex bugs,
 but because basic input checks were skipped.
 
