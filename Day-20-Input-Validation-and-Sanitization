@@ -11,3 +11,12 @@ Improper input handling is one of the root causes of:
 
 ## Key takeaway
 Never trust user input — validate what you expect, sanitize what you display.
+
+## Real-world impact
+Improper input validation has caused major security breaches in the real world:
+- XSS leading to session hijacking
+- SQL Injection exposing entire databases
+- Command Injection resulting in server takeover
+
+Most of these attacks happen not because of complex bugs,
+but because basic input checks were skipped.
