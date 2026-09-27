@@ -82,4 +82,10 @@ practice — but each one is documented below as-is.
 ## Tools
 
 - [`range_scanner.py`](range_scanner.py) — a simple TCP port-range scanner written for Day 49's
-  port scanning & reconnaissance topic.
+  port scanning & reconnaissance topic. Only scan hosts you own or are authorized to test.
+
+  ```bash
+  python range_scanner.py <target> <start_port> <end_port>
+  # or run with no arguments to be prompted interactively
+  python range_scanner.py 127.0.0.1 20 1024
+  ```
